@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 import os
-
+#删除文本中的BIO标记 忽略文件名
 file_path = ("test.txt")
 with open(file_path, mode='r', encoding="UTF-8") as f:
     filex = f.readlines()
