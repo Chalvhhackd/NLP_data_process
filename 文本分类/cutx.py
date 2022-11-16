@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import os
-
-with open('设备安全.txt', 'r', encoding='UTF-8') as f:
+#标注数据
+with open('xxxxx.txt', 'r', encoding='UTF-8') as f:
     filex=f.readlines()
     for i in range(len(filex)):
         linex=list(filex[i])
